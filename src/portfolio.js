@@ -11,26 +11,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shahrukh Anwar",
+  title: "Hi all, I'm Shahrukh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having expertise in building Web applications with Vuejs, Laravel, Lumen, Javascript, PHP, Bulma, Tailwind, Bootstrap, HTML, CSS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lsDu6mej3yOFZoDdob5crX9bUCdo_u2m/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/shahrukh4",
+  linkedin: "https://www.linkedin.com/in/shahrukh-anwar-912233132",
+  gmail: "shahrukhanwar2013@gmail.com",
+  gitlab: "https://gitlab.com/shahrukh58",
+  facebook: "https://www.facebook.com/shahrukh.anwar.58",
+  medium: "https://medium.com/@shahrukhanwar2013",
+  stackoverflow: "https://stackoverflow.com/users/8473036/shahrukh-anwar",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -47,7 +47,7 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Expertise in Laravel and Vue js development with 4.5 years of total experience and 3 years of Remote experience."
     )
   ],
 
@@ -56,56 +56,52 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Vue JS",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "SASS",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "NPM",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -117,23 +113,34 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Krishna Engineering College",
+      logo: require("./assets/images/kec.png"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "August 2013 - May 2017",
+      desc: "One of the toppers in Computer Science department, learned a lot and attended various technical and cultural events",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Passed out with 80% marks through having a degree in A.P.J Abdul Kalam Technical University"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Colonelganj Inter College",
+      logo: require("./assets/images/cic.jpg"),
+      subHeader: "Higher Secondary",
+      duration: "July 2010 - May 2012",
+      desc: "Colonelganj Inter College focuses on the all round development of the students and the willful efforts of the teachers to make new methods of teaching & to make their participation in various activities & their participation is sure in various kinds of workshops & seminars.",
+      descBullets: [
+        "Passed out with 72% marks through having a degree with Uttar Pradesh Education Board"
+      ]
+    },
+    {
+      schoolName: "Colonelganj Inter College",
+      logo: require("./assets/images/cic.jpg"),
+      subHeader: "High School",
+      duration: "July 2009 - May 2010",
+      desc: "Colonelganj Inter College aims at providing quality education to the students & to make them good citizens also. They strongly believe that students are the most important asset for building a nation. ",
+      descBullets: [
+        "Passed out with 70% marks through having a degree with Uttar Pradesh Education Board"
+      ]
     }
   ]
 };
@@ -144,16 +151,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Vuejs",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Laravel",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Javascript",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "PHP",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "MySQL",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Git",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -300,16 +319,9 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@shahrukhanwar2013/laravel-version-6-0-is-coming-e7cc2885781d",
+      title: "Laravel Version 6.0 is coming",
+      description: "Brief introduction of what's in store for us in the brand new Laravel 6"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -349,17 +361,18 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
+  location: 'Allahabad, India',
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-7503504678",
+  email_address: "shahrukhanwar2013@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
