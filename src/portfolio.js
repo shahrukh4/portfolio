@@ -184,29 +184,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "Vinove",
+      companylogo: require("./assets/images/logo/vinove.png"),
+      date: "Sept 2019 – Current",
+      desc: "A high-spirited startup where I am working as a Full Stack Developer and get my hands dirty with Laravel and Vuejs with some kick of ElasticSearch and various other technologies to give my contribution in the Microservices architecture of my projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Working as a full time Full Stack Developer.",
+        "Worked on Vuejs, Laravel, Symfony, Nodejs and various other technologies.",
+        "Having working experience of Remote environment."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer",
+      company: "Sparx IT",
+      companylogo: require("./assets/images/logo/sparx.png"),
+      date: "Mar 2019 – Sept 2019",
+      desc: "A good startup to work with, I worked on Laravel, Node.js, Vuejs, Jquery and similar technologies here. Developed and worked with a great team to build some very interesting products with a very collaborative team and management.",
+      descBullets: [
+        "Worked as a full time Full Stack Developer.",
+        "Had a great time with my collegues, management and great learning opportunities.",
+        "Had working experience of Remote environment."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer",
+      company: "HestaBit",
+      companylogo: require("./assets/images/logo/hb.jpg"),
+      date: "July 2017 – Feb 2019",
+      desc: "Worked as a Backend Developer initially here. Learned and grew with HestaBit for 2 years. Worked on Laravel, Vuejs, Node.js, Symfony, and various interesting technologies in HestaBit.",
+      descBullets: [
+        "Worked as a full time Full Stack Developer.",
+        "Worked on various products for development of their APIs and Web App",
+        "Learned a lot and find some great collegues there. Great management and people to work with."
+      ]
     }
   ]
 };
@@ -222,29 +233,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Recent Projects",
+  subtitle: "Some of my recent projects that I worked on in association with HestaBit and Vinove.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo/hp.png"),
+      projectName: "Hellopeter",
+      projectDesc: "Hellopeter.com is South Africa's leading consumer advocacy and corporate reputation management website and has become one of the biggest customer service sites in the world.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://hellopeter.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo/vm.png"),
+      projectName: "Votemix",
+      projectDesc: "Social network for music lovers, artists, bands, musicians and more! Connect with fans, discover new music, and share the music you love with your friends.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://votemix.com"
         }
       ]
     }
@@ -307,7 +318,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -343,7 +354,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +367,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
